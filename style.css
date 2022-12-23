@@ -35,11 +35,26 @@ header .heading { /*headerタグ内のheadingクラスにのみ反映させる*/
 .main-visual {
   width: 100%;
   height: 300px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .main-visual-content {
-  width: 350px;
+  width: 40%;
   height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 105px;
+}
+
+.main-visual-text {
+  color: #fff;
+}
+
+.main-visual-name {
+  margin-top: 30px;
+  color: #fff;
 }
 
 .main {
@@ -49,7 +64,7 @@ header .heading { /*headerタグ内のheadingクラスにのみ反映させる*/
   display: flex; /* Flexboxの利用*/
   justify-content: center; /*子要素の横並び、中央寄せ*/
   margin: 0 auto; /*中央寄せ（左右に余白がないと出来ない）0 autoの時必ずwidth設定*/
-  
+
 }
 
 .blog {
